@@ -24,7 +24,7 @@ body{
     max-width: 100%;
     overflow: hidden;
 }
-h2{
+#question{
     margin-bottom: 20px;
 }
 
@@ -37,8 +37,14 @@ ul{
 }
 
 ul li{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin: 1rem 0;
+    cursor: pointer;
+}
+
+label{
+    margin-left: 10px;
+    cursor: pointer;
 }
 
 button{
@@ -55,5 +61,8 @@ button{
 
 button:hover{
     background-color: #066f5a;
-
+}
+h3{
+    text-align: center;
+    padding: 10px;
 }
