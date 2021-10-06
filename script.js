@@ -66,7 +66,6 @@ function loadQuizz() {
     c_text.innerText = currentQuizzData.c;
     d_text.innerText = currentQuizzData.d;
 
-    
 }
 
 function getSelected() {
@@ -89,9 +88,8 @@ function deselectAnswer(){
 
 submitBtn.addEventListener('click', () => {
 
-    const answer = getSelected();
+    let answer = getSelected();
     
-
     if(answer) {
         if(answer === quizData[currentQuizz].correct){
             score++;
@@ -105,6 +103,5 @@ submitBtn.addEventListener('click', () => {
                 <button onclick="location.reload()">Reload</button>
             `;
         }
-    }
-   
+    } 
 })
