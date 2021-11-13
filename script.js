@@ -8,11 +8,11 @@ const quizData = [
         correct: 'd'
     },
     {
-        question: 'Who is the President of US ? ',
-        a: 'Hillary Clinton',
-        b: 'Donald Trump',
-        c: 'Joe Biden',
-        d: 'Barack Obama',
+        question: 'Who invented Javascript ? ',
+        a: 'James Gosling',
+        b: 'Håkon Wium Lie',
+        c: 'Brendan Eich',
+        d: 'Tim Berners-Lee',
         correct: 'c'
     },
     {
